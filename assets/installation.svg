@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Wall sensor datum and clearance design</title>
+  <desc id="desc">Design schematic, not a Revit screenshot. A 155 by 129 by 34 millimetre sensor is centred at 1400 millimetres above finished floor. Its fixed installation band extends from 1100 to 1700 millimetres and has a provisional visual-helper width of 350 millimetres. The separate 2155 millimetre wide clearance extends 1000 millimetres beyond the housing edges and outward from its front.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#4b626c"/></marker>
+    <pattern id="wall" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8L8 0" stroke="#d4dfe1" stroke-width="1"/></pattern>
+    <style>text{font-family:Arial,Helvetica,sans-serif;fill:#20343e}.small{font-size:13px}.body{font-size:15px}.label{font-size:14px;font-weight:600}.note{font-size:13px;fill:#5c7079}.line{stroke:#4b626c;stroke-width:1;fill:none}.dim{stroke:#4b626c;stroke-width:1;fill:none;marker-start:url(#arrow);marker-end:url(#arrow)}.teal{fill:#116b72}.rule{stroke:#dce4e7;stroke-width:1}</style>
+  </defs>
+  <rect width="1200" height="780" fill="#fff"/>
+  <rect x="0" y="0" width="10" height="780" fill="#166f76"/>
+  <text x="44" y="47" font-size="25" font-weight="600">Wall sensor · datum study</text>
+  <text x="44" y="74" class="note">Design schematic — not a Revit screenshot</text>
+  <text x="1156" y="47" text-anchor="end" class="label">SE-200 / SE-300</text>
+  <text x="1156" y="73" text-anchor="end" class="note">Dimensions in mm · provisional envelope</text>
+  <line x1="44" y1="94" x2="1156" y2="94" class="rule"/>
+  <text x="44" y="124" class="label">WALL ELEVATION</text>
+  <text x="44" y="146" class="note">The floor datum is the family origin.</text>
+  <rect x="93" y="178" width="474" height="468" fill="#1b838d" fill-opacity=".035" stroke="#438b92" stroke-width="1.5" stroke-dasharray="8 5"/>
+  <rect x="291.5" y="346" width="77" height="132" fill="#6eb9b0" fill-opacity=".2"/>
+  <line x1="291.5" y1="346" x2="368.5" y2="346" stroke="#166f76" stroke-width="1.5"/>
+  <line x1="291.5" y1="478" x2="368.5" y2="478" stroke="#166f76" stroke-width="1.5"/>
+  <text x="107" y="367" class="small teal">FIXED BAND</text>
+  <line x1="196" y1="362" x2="284" y2="362" stroke="#166f76" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="80" y1="412" x2="580" y2="412" stroke="#94a9b1" stroke-dasharray="8 4 2 4"/>
+  <rect x="313" y="398" width="34" height="28" rx="2" fill="#fff" stroke="#20343e" stroke-width="2"/>
+  <circle cx="330" cy="412" r="2.7" fill="#20343e"/>
+  <path d="M348 407L398 389L491 389" class="line"/>
+  <text x="406" y="383" class="small">Device centre</text>
+  <path d="M330 428V714" stroke="#94a9b1" stroke-dasharray="8 4 2 4"/>
+  <line x1="64" y1="720" x2="589" y2="720" stroke="#20343e" stroke-width="2"/>
+  <path d="M322 720L330 709L338 720Z" fill="#166f76"/>
+  <text x="64" y="744" class="label">FINISHED FLOOR / 0 AFF</text>
+  <text x="400" y="744" class="note">Origin stays on this datum</text>
+  <line x1="368.5" y1="346" x2="638" y2="346" class="line"/>
+  <line x1="368.5" y1="478" x2="612" y2="478" class="line"/>
+  <line x1="291.5" y1="483" x2="291.5" y2="504" class="line"/>
+  <line x1="368.5" y1="483" x2="368.5" y2="504" class="line"/>
+  <line x1="291.5" y1="498" x2="368.5" y2="498" class="dim"/>
+  <rect x="288" y="507" width="84" height="20" fill="#fff"/>
+  <text x="330" y="522" text-anchor="middle" class="small">350 helper</text>
+  <line x1="589" y1="720" x2="638" y2="720" class="line"/>
+  <line x1="604" y1="478" x2="604" y2="720" class="dim"/>
+  <line x1="630" y1="346" x2="630" y2="720" class="dim"/>
+  <text transform="translate(598 599) rotate(-90)" text-anchor="middle" class="small">1100</text>
+  <text transform="translate(624 534) rotate(-90)" text-anchor="middle" class="small">1700</text>
+  <line x1="330" y1="412" x2="64" y2="412" class="line"/>
+  <line x1="72" y1="412" x2="72" y2="720" class="dim"/>
+  <text transform="translate(63 567) rotate(-90)" text-anchor="middle" class="label">1400 AFF C/L</text>
+  <line x1="330" y1="398" x2="330" y2="178" class="dim"/>
+  <rect x="282" y="275" width="96" height="24" fill="#fff"/>
+  <text x="330" y="292" text-anchor="middle" class="small">1000 clear</text>
+  <text x="107" y="202" class="small teal">KEEP-CLEAR SOLID</text>
+  <text x="107" y="626" class="note">Moves with the device · separate subcategory</text>
+  <line x1="675" y1="112" x2="675" y2="748" class="rule"/>
+  <text x="714" y="124" class="label">HOUSING ENVELOPE</text>
+  <text x="714" y="146" class="note">Width × height × depth = 155 × 129 × 34</text>
+  <rect x="754" y="198" width="186" height="155" rx="10" fill="#f5f8f8" stroke="#20343e" stroke-width="2"/>
+  <circle cx="847" cy="276" r="4" fill="#166f76"/>
+  <line x1="754" y1="181" x2="940" y2="181" class="dim"/>
+  <line x1="754" y1="175" x2="754" y2="193" class="line"/>
+  <line x1="940" y1="175" x2="940" y2="193" class="line"/>
+  <text x="847" y="173" text-anchor="middle" class="small">155</text>
+  <line x1="958" y1="198" x2="958" y2="353" class="dim"/>
+  <text x="968" y="280" class="small">129</text>
+  <rect x="1032" y="198" width="16" height="155" fill="url(#wall)" stroke="#b7c8cc"/>
+  <rect x="1048" y="198" width="41" height="155" rx="3" fill="#f5f8f8" stroke="#20343e" stroke-width="2"/>
+  <line x1="1048" y1="371" x2="1089" y2="371" class="dim"/>
+  <text x="1068" y="391" text-anchor="middle" class="small">34</text>
+  <text x="847" y="384" text-anchor="middle" class="note">Front</text>
+  <text x="1068" y="416" text-anchor="middle" class="note">Side</text>
+  <line x1="714" y1="444" x2="1156" y2="444" class="rule"/>
+  <text x="714" y="476" class="label">WHOLE-DEVICE CHECK</text>
+  <text x="714" y="507" class="body">Bottom = centre − 64.5</text>
+  <text x="714" y="532" class="body">Top = centre + 64.5</text>
+  <rect x="714" y="552" width="442" height="54" rx="4" fill="#edf6f4"/>
+  <text x="732" y="575" class="label teal">OK when centre is 1164.5–1635.5</text>
+  <text x="732" y="595" class="small teal">Both edges inside the band; boundaries included.</text>
+  <text x="714" y="638" class="body">1400 mm = 55.1181 in → displayed 55 in</text>
+  <text x="714" y="661" class="note">350 mm band width is a visual helper assumption.</text>
+  <text x="714" y="681" class="note">Its 1100–1700 mm vertical limits follow the brief.</text>
+  <text x="714" y="701" class="note">Clearance is separate; none extends behind the wall.</text>
+  <text x="714" y="727" class="note">Native constraints, tags, interference and IFC export</text>
+  <text x="714" y="747" class="note">still require validation in Revit 2022.</text>
+</svg>
