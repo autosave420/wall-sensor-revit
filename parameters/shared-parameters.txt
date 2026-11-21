@@ -1,0 +1,9 @@
+# Revit shared parameter definitions. Keep these GUIDs when creating the tag seed.
+*META	VERSION	MINVERSION
+META	2	1
+*GROUP	ID	NAME
+GROUP	1	Wall Sensor
+*PARAM	GUID	NAME	DATATYPE	DATACATEGORY	GROUP	VISIBLE	DESCRIPTION	USERMODIFIABLE	HIDEWHENNOVALUE
+PARAM	683c7d22-6dd7-4f63-b753-f38b50c043f7	Mounting Height	LENGTH		1	1	Device centre above the finished-floor datum.	1	0
+PARAM	ab717f7f-bc7e-4b66-a31d-ff138d3c3125	Band Status	TEXT		1	1	Whole device within the 1100 to 1700 mm installation band.	0	0
+
