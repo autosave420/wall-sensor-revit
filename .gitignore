@@ -1,0 +1,14 @@
+.cache/
+bin/
+obj/
+output/
+*.user
+*.suo
+*.rfa
+*.rvt
+*.rft
+*.ifc
+*.log
+*.zip
+__pycache__/
+
